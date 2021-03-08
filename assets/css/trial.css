@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e4e4;
+}
+
+.piano {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+}
+
+.whitekey {
+    width: 3.5%;
+    height: 100%;
+    cursor: pointer;
+    border: 3px solid black;
+    background-color: white;
+    border-radius: 0 0 4px 4px;
+    outline: none;
+    margin-left: -0.3%;
+}
+
+.blackkey {
+    width: 2%;
+    height: 70%;
+    cursor: pointer;
+    outline: none;
+    border-radius: 0 0 3px 3px;
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.535));
+    border: 3px solid black;
+    z-index: 1;
+    position: relative;
+}
+
+.Db4 {
+    left: -30.05%;
+}
+.Eb4 {
+    left: -28.8%;
+}
+.Gb4 {
+    left: -24.4%;
+}
+.Ab4 {
+    left: -23.2%;
+}
+.Bb4 {
+    left: -22%;
+}
+.Db5 {
+    left: -17.6%;
+}
+.Eb5 {
+    left: -16.4%;
+}
